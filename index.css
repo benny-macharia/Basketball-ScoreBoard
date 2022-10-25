@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #1F305E
+}
+@font-face{
+    font-family:'Cursed Timer ULiL';
+ src: url('C:\Users\hp\Downloads\cursed-timer-ulil-font\CursedTimerUlil-Aznm.ttf');
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titles{
+font-family: Verdana;
+font-size: 40px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+
+#score{
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background-color: black;
+}
+
+#points{
+width: 117px;
+height: 120px;
+left: 100px;
+top: 125px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 127px;
+
+text-align: center;
+color: #F94F6D;
+}
+
+g-button{
+width: 155px;
+height: 45px;
+left: 337px;
+top: 271px;
+margin: 26px;
+}
+
+button{
+background: transparent;
+margin-right: 2px;
+margin-top: 26px;
+cursor: pointer;
+border-radius: 8px;
+height: 50px;
+width: 50px;
+color: whitesmoke;
+}
+
